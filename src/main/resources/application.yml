@@ -1,0 +1,12 @@
+server:
+ port: 8082
+ servlet:
+  context-path: /camera
+
+video:
+#直播流保活时间(分钟)
+ keepalive: 5
+#nginx推送地址
+ push_ip: 127.0.0.1
+#nginx推送端口
+ push_port: 1935
